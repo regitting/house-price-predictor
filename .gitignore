@@ -205,3 +205,25 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Ignore virtual environment
+.venv/
+
+# Ignore data files
+data/
+
+# Ignore trained models and metadata
+models/
+
+# Ignore predictions (timestamped CSVs)
+predictions/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore system files
+.DS_Store
+Thumbs.db
