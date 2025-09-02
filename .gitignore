@@ -209,14 +209,17 @@ __marimo__/
 # Ignore virtual environment
 .venv/
 
-# Ignore data files
-data/
+# Ignore data files but keep folder
+data/*
+!data/.gitkeep
 
-# Ignore trained models and metadata
-models/
+# Ignore trained models and metadata but keep folder
+models/*
+!models/.gitkeep
 
-# Ignore predictions (timestamped CSVs)
-predictions/
+# Ignore predictions (timestamped CSVs) but keep folder
+predictions/*
+!predictions/.gitkeep
 
 # Ignore Python cache files
 __pycache__/
