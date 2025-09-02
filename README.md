@@ -19,7 +19,7 @@ It takes housing features (like size, year built, and location) and outputs a pr
 # 3. Install the required packages:
     pip install -r requirements.txt
 
-# 4. Run data_loader.py, train.py, predict.py one at a time:
+# 4. Run training/predicting software one at a time:
     Demo mode (generates 1000 rows of California housing data)
     python src\data_loader.py --demo --rows 1000
     python src\train.py
@@ -29,7 +29,8 @@ It takes housing features (like size, year built, and location) and outputs a pr
     python src\train.py
     python src\predict.py --csv data\your_file.csv
 
-# 5. Run show_predictions.ipynb to see results
+# 5. See results:
+    Run show_predictions.ipynb notebook to see results
 
 # NOTE:
 - The demo only uses 1000 rows from California.
